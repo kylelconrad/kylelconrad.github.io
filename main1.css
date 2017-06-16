@@ -5,6 +5,47 @@ body {
     margin: 0;
     
     
+    
+}
+.dropbtn {
+    background-color: #000000
+        color: #f40f0f;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+     
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 25px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+.dropdown-content a {
+    color: black;
+    padding: 5px 3px;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #fd0303}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(247, 10, 10, 0.25);
 }
 .option a {
 background-color:red;
@@ -20,12 +61,21 @@ header{
     margin-top: -22px;
 }
 a {
-    
+   font-size: 45px;
+    color: #0aff00;
+    text-decoration: none;
+    font-weight: bold; 
+    text-decoration-style: dotted;
+    border: 5px solid blue;  
 }
 a:hover {
-    
+    opacity: 0.5; 
 }
-
+.game1{
+    display: inline;
+    position: static;
+    padding: 20px;
+}
 #wrapper{
   margin-top: -1%;
   background-size: 100%;
@@ -59,14 +109,41 @@ img{
 }
 
 .p1{
-    margin-top: -350px;
+    padding-top: 0px;
     color: blue;
     width = 55%;
-    z-index: 1;
+    
 }
 .p2{
-    z-index: 1;
+    
     color: crimson;
+}
+.p3{
+    
+    color: green;
+}
+.p4{
+    
+    color: darkorange;
+}
+.p5{
+    
+    color: gold;
+}
+.p6{
+    color: purple
+}
+.p7{
+    color: crimson;
+}
+.p8{
+    color: forestgreen;
+} 
+.p9{
+    color: aqua;
+}
+.p10{
+  color: darkred
 }
 header{
     
